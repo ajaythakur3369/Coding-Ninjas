@@ -1,46 +1,65 @@
 '''
-3. What will be the output of the following code?
-'''
+Task:- 
+Given a square binary matrix ‘mat[n][n]’, find ‘K’ such that all elements in the Kth row are ‘0’ and all elements in the Kth column are ‘1’. The value of mat[k][k] can be anything (either ‘0’ or ‘1’). If no such k exists, return ‘-1’.
 
-class Student:
-    def store_details(self):
-        self.age = 60
-        self.name = ‘Parikh’
-    def print_details(self):
-        print(self.name, end=” ”)
-        print(self.age)
+For example:
+Consider the following matrix :
+0 1 1 
+0 1 0 
+1 1 0 
 
-s = Student()
-s.store_details()
-s.print_details()
-
-'''
-Output:- Parikh 60
+You can see that row 1 (0-based) contains all 0’s except mat[1][1] and column 1 contains all 1’s. Hence the answer for the above case is 1.
 '''
 
 '''
-4. What is the output of the following for loop and range() function?
-'''
-
-for num in range(2,-5,-1):
-    print(num, end=", ")
-
-'''
-Output:- 2, 1, 0, -1, -2, -3, -4,
+Constraints:- 
+ 1 <= T <= 5
+ 1 <= N <= 1000
+ 0 <= Aij <= 1
+ Time Limit: 1sec
 '''
 
 '''
-5. What is the return type of a method that doesn't return any value?
+Sample Input 1:- 
+1
+3
+0 1 1 
+0 1 0 
+1 1 0 
+
+Sample Output 1:
+1
+
+Explanation For Sample Output 1:
+For the first test case, column 1 contains all ones. Also except mat[1][1] all numbers in row 1 are 0.
 '''
 
 '''
-Answer:- void
+Sample Input 2:- 
+2
+2
+0 1
+1 0
+2
+0 0
+1 0
+
+Sample Output 2:
+-1
+0
 '''
 
+from os import *
+from sys import *
+from collections import *
+from math import *
 
-
-
-
-
-
-
+def findRowK(mat):
+    for i in range(len(mat)):
+        count = 0
+        for j in range(len(mat)):
+            if i != j and mat[i][j] == 0 and mat[j][i] == 1:
+                count += 1
+        if count >= (len(mat) - 1):
+            return i
+    return -1

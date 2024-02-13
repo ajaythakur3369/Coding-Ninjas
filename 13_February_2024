@@ -1,0 +1,19 @@
+/******************************************************************************
+1. Which of the following is a valid variable naming convention?
+Answer:- int x = 10;
+*******************************************************************************/
+
+/******************************************************************************
+2. .In a queue of students facing north, Ayesha and Anisha are standing at the 10th and 8th position from the left and right end respectively. If another student Ariva who is 12th from the left end is exactly in between Ayesha and Anisha then find the position of Ayesha from the right end?
+Answer:- 12th
+*******************************************************************************/
+
+/******************************************************************************
+3. Third normal form is inadequate in situations where the relation:
+Answer:- None of the above (has multiple candidate keys, has candidate keys that are composite, has overlapped candidate keys)
+*******************************************************************************/
+
+/******************************************************************************
+4. Select a suitable figure from the four alternatives that would complete the figure matrix. Which of the join operations do not preserve non matched tuples. 
+Answer:- Inner join
+*******************************************************************************/

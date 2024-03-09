@@ -1,0 +1,26 @@
+/******************************************************************************
+1. The dress Ariel wore ____ with small, glassy beads, creating a shimmering effect. 
+Answer:- scintillated
+*******************************************************************************/
+
+/******************************************************************************
+2. Statement: "To bring punctuality in our office, we must provide conveyance allowance to our employees." the person in charge of the company tells the Personnel Manager.
+Assumption 1: Conveyance allowance will not help in bringing punctuality. 
+Assumption 2: Discipline and reward should always go hand in hand.
+Answer:- Only assumption II is implicit 
+*******************************************************************************/
+
+/******************************************************************************
+3. How do we generally recover from a deadlock? 
+Answer:- By rolling back only a selected number of transactions 
+*******************************************************************************/
+
+/******************************************************************************
+4. The advantage of the 'switch' statement over 'if' is that it leads to a more structured program. 
+Answer:- True
+*******************************************************************************/
+
+/******************************************************************************
+5. What was the main purpose behind using the inheritance? 
+Answer:- Code Reusability
+*******************************************************************************/

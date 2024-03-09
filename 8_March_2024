@@ -1,0 +1,24 @@
+/******************************************************************************
+1. 2,A,9,B,6,C,13,D,? 
+Answer:- 10
+*******************************************************************************/
+
+/******************************************************************************
+2. Which one of the following statements about normal forms is FALSE?
+Answer:- Lossless, dependency–preserving decomposition into BCNF is always possible 
+*******************************************************************************/
+
+/******************************************************************************
+3. The expression Int(x) implies that the variable x is converted to an integer. 
+Answer:- True
+*******************************************************************************/
+
+/******************************************************************************
+4. Which of the following statements is true?
+Answer:- DELETE does not free the space containing the table and TRUNCATE frees the space containing the table
+*******************************************************************************/
+
+/******************************************************************************
+5. A machine depreciates each year at the rate of 10% of its previous value. However every second year there is some maintenance work, so that in that particular year depreciation is only 5% of its previous value. If at the end of the fourth year, the value of the machine stands at Rs. 146205, then find the value of the machine at the start of the first year.
+Answer:- 200000
+*******************************************************************************/
